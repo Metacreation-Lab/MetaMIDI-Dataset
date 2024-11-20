@@ -1,6 +1,10 @@
 # Note: 
 Our Metacreation Lab has developed a new MIDI dataset called GigaMIDI, which serves as a superset of the MetaMIDI dataset.
 https://github.com/Metacreation-Lab/GigaMIDI-Dataset 
+
+# Research Paper for the MetaMIDI Dataset
+Ens, J., & Pasquier, P. (2021). Building the MetaMIDI Dataset: Linking Symbolic and Audio Musical Data. In ISMIR (pp. 182-188).
+
 # Summary
 
 We introduce the MetaMIDI Dataset (MMD), a large-scale collection of 436,631 MIDI files and metadata. In addition to the MIDI files, we provide artist, title and genre metadata that was collected during the scraping process when available. MIDIs in (MMD) were matched against a collection of 32,000,000 30-second audio clips retrieved from Spotify, resulting in over 10,796,557 audio-MIDI matches. In addition, we linked 600,142 Spotify tracks with 1,094,901 MusicBrainz recordings to produce a set of 168,032 MIDI files that are matched to the MusicBrainz database. These links augment many files in the dataset with the extensive metadata available via the Spotify API and the MusicBrainz database. We anticipate that this collection of data will be of great use to MIR researchers addressing a variety of research topics.
