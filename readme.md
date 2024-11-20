@@ -1,12 +1,15 @@
+# Note: 
+Our Metacreation Lab has developed a new MIDI dataset called GigaMIDI, which serves as a superset of the MetaMIDI dataset.
+https://github.com/Metacreation-Lab/GigaMIDI-Dataset 
 # Summary
 
-We introduce the MetaMIDI Dataset (MMD), a large scale collection of 436,631 MIDI files and metadata. In addition to the MIDI files, we provide artist, title and genre metadata that was collected during the scraping process when available. MIDIs in (MMD) were matched against a collection of 32,000,000 30-second audio clips retrieved from Spotify, resulting in over 10,796,557 audio-MIDI matches. In addition, we linked 600,142 Spotify tracks with 1,094,901 MusicBrainz recordings to produce a set of 168,032 MIDI files that are matched to MusicBrainz database. These links augment many files in the dataset with the extensive metadata available via the Spotify API and the MusicBrainz database. We anticipate that this collection of data will be of great use to MIR researchers addressing a variety of research topics.
+We introduce the MetaMIDI Dataset (MMD), a large-scale collection of 436,631 MIDI files and metadata. In addition to the MIDI files, we provide artist, title and genre metadata that was collected during the scraping process when available. MIDIs in (MMD) were matched against a collection of 32,000,000 30-second audio clips retrieved from Spotify, resulting in over 10,796,557 audio-MIDI matches. In addition, we linked 600,142 Spotify tracks with 1,094,901 MusicBrainz recordings to produce a set of 168,032 MIDI files that are matched to the MusicBrainz database. These links augment many files in the dataset with the extensive metadata available via the Spotify API and the MusicBrainz database. We anticipate that this collection of data will be of great use to MIR researchers addressing a variety of research topics.
 
 1. Collection of 436,631 MIDI files.
 2. Scraped artist + title metadata for 221,504 MIDIs (10 times more than the LMD).
 3. Scraped genre metadata for 143,868 MIDIs.
 4. An improved audio-MIDI matching procedure, which produced 10,796,557 audio-MIDI matches linking 237,236 MIDIs to one or more tracks on Spotify.
-5. 829,728 high reliability audio-MIDI + metadata matches linking 53,496 MIDIs to one or more tracks on Spotify.
+5. 829,728 high-reliability audio-MIDI + metadata matches linking 53,496 MIDIs to one or more tracks on Spotify.
 6. A method for linking Spotify tracks and MusicBrainz recordings, producing 8,263,482 unique links that associate 1,094,901 MusicBrainz recordings with 600,142 Spotify tracks.
 7. 168,032 MIDIs matched to MusicBrainz IDs via the Spotify/MusicBrainz linking procedure.
 
